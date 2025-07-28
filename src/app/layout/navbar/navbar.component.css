@@ -1,0 +1,11 @@
+.text-main{
+  color: #E65E77;
+}
+.mynav li:hover a {
+  color: #E65E77 !important;
+  transform: scale(1.1);
+}
+.mynav li a{
+  transition: all 0.3s;
+  
+}

@@ -1,0 +1,7 @@
+.my-circ:hover{
+  background-color: white;
+  color: #E65E77;
+}
+.my-circ{
+  transition: all 0.3s;
+}
