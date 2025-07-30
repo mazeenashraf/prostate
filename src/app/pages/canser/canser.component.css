@@ -1,0 +1,84 @@
+
+.text-main {
+   color: #E65E77;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  direction: rtl;
+  text-align: right;
+}
+
+/* تنسيق الصور */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* العناوين */
+h2, h3, h4 {
+  color: #333;
+}
+
+/* ضبط المسافات داخل الأقسام */
+section {
+  margin-bottom: 2rem;
+}
+
+/* تنسيق الروابط */
+a.text-main {
+    color: #E65E77;
+  transition: color 0.3s ease;
+}
+
+a.text-main:hover {
+   color: #E65E77;
+}
+
+/* ضبط ال spacing في الفقرات */
+p, li {
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* في الأجهزة الصغيرة */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .d-flex {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .img-wrapper,
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .text-center {
+    text-align: right !important;
+  }
+}

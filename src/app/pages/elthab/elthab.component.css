@@ -1,0 +1,46 @@
+.text-main {
+  color: #E65E77;
+}
+
+.prostate-section h2,
+.prostate-section h3,
+.prostate-section h4 {
+  line-height: 1.5;
+}
+
+.prostate-section ul {
+  list-style: disc;
+  padding-right: 1.5rem;
+}
+
+.prostate-section p,
+.prostate-section li {
+  line-height: 1.8;
+}
+
+@media (max-width: 576px) {
+  .prostate-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .prostate-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .prostate-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .prostate-section p,
+  .prostate-section li {
+    font-size: 0.95rem;
+  }
+
+  .prostate-section {
+    padding: 1rem;
+  }
+
+  .prostate-section .container {
+    padding: 0.5rem;
+  }
+}

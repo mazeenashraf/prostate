@@ -6,3 +6,124 @@
 .card img{
   transition: all 0.4s;
 }
+
+
+/* الأساسيات العامة */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+.text-main {
+     color: #E65E77;
+
+}
+
+h2, h3, h4 {
+  color: #222;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+ul {
+  padding-right: 1.5rem;
+}
+
+/* تنسيق الصور */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* تنسيق الروابط */
+a.text-main {
+   color: #E65E77;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a.text-main:hover {
+   color: #E65E77;
+}
+
+/* كروت وصور */
+.card {
+  border: none;
+  background-color: #fff;
+}
+
+.img-thumbnail {
+  border: 3px solid #f1f1f1;
+  padding: 4px;
+}
+
+/* الأقسام */
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* العناوين الداخلية */
+section h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+/* تنسيق خاص بالعلاج */
+ul ul {
+  list-style-type: circle;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* تحسين الرسبونسف */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  p, li {
+    font-size: 0.95rem;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .d-flex {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .img-thumbnail {
+    padding: 2px;
+  }
+
+  .text-center {
+    text-align: right !important;
+  }
+}
